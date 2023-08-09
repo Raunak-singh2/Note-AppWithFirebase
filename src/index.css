@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Rubik:wght@300&display=swap");
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+body {
+  margin: 0;
+  background: #171717;
+  color: #fff;
+}
+.section {
+  max-width: 35rem;
+  margin: 2rem auto;
+  background: #fff;
+  color: #171717;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+button {
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font: inherit;
+  background: #6c0f0fe8;
+  color: #fff;
+  border-color: #6c0f0fe8;
+  border-radius: 2px;
+  box-shadow: 5px 2px 8px rgba(0, 0, 0, 1);
+}
+button:hover,
+button:active {
+  background: #a71f1fe8;
+  border-color: #6c0f0fe8;
+}
+.forms input {
+  font: inherit;
+  padding: 0.25rem;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #ccc;
+  flex: 1;
+  margin-right: 1rem;
+  width: 50%;
+  font-size: 1.4rem;
+}
+.forms input:focus {
+  border-color: #6c0f0fe8;
+}
+.container {
+  text-align: center;
+}
+.container ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  text-align: left;
+}
+.note {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  font-weight: bold;
+}
+.note:last-of-type {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .section {
+    max-width: 40rem;
+  }
+}
